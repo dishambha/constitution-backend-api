@@ -76,7 +76,7 @@ Once deployed or run locally, access it at:
 </p>
 
 <pre>
-/docs
+https://constitution-backend-api.onrender.com/
 </pre>
 
 <h2>🌍 Deployment</h2>
