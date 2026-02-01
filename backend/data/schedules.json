@@ -1,0 +1,62 @@
+{
+  "First Schedule": {
+    "number": 1,
+    "title": "The States and the Union territories",
+    "description": "Lists all States and Union Territories of India along with their territorial extent."
+  },
+  "Second Schedule": {
+    "number": 2,
+    "title": "Emoluments, allowances, privileges and so on",
+    "description": "Contains provisions relating to salaries, allowances, and privileges of constitutional authorities such as the President, Governors, Judges, etc."
+  },
+  "Third Schedule": {
+    "number": 3,
+    "title": "Forms of Oaths or Affirmations",
+    "description": "Specifies the oaths and affirmations for public offices including ministers, judges, and legislators."
+  },
+  "Fourth Schedule": {
+    "number": 4,
+    "title": "Allocation of seats in the Council of States",
+    "description": "Details the allocation of seats to States and Union Territories in the Rajya Sabha."
+  },
+  "Fifth Schedule": {
+    "number": 5,
+    "title": "Administration and control of Scheduled Areas and Scheduled Tribes",
+    "description": "Deals with the administration of Scheduled Areas and protection of Scheduled Tribes."
+  },
+  "Sixth Schedule": {
+    "number": 6,
+    "title": "Administration of tribal areas in Assam, Meghalaya, Tripura and Mizoram",
+    "description": "Provides special administrative provisions for tribal areas in certain northeastern states."
+  },
+  "Seventh Schedule": {
+    "number": 7,
+    "title": "Union List, State List and Concurrent List",
+    "description": "Defines the distribution of legislative powers between the Union and the States."
+  },
+  "Eighth Schedule": {
+    "number": 8,
+    "title": "Languages",
+    "description": "Lists the officially recognized languages of India."
+  },
+  "Ninth Schedule": {
+    "number": 9,
+    "title": "Validation of certain Acts and Regulations",
+    "description": "Contains laws protected from judicial review on the grounds of violation of fundamental rights."
+  },
+  "Tenth Schedule": {
+    "number": 10,
+    "title": "Anti-defection provisions",
+    "description": "Provides provisions relating to disqualification of legislators on the ground of defection."
+  },
+  "Eleventh Schedule": {
+    "number": 11,
+    "title": "Powers, authority and responsibilities of Panchayats",
+    "description": "Lists matters related to rural local governance under Panchayati Raj institutions."
+  },
+  "Twelfth Schedule": {
+    "number": 12,
+    "title": "Powers, authority and responsibilities of Municipalities",
+    "description": "Lists matters related to urban local governance under Municipal bodies."
+  }
+}
