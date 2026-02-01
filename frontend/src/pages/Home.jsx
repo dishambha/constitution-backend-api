@@ -26,7 +26,8 @@ const Home = () => {
     }, []);
 
     if (loading) return <div className="loading-spinner"></div>;
-    if (error) return <div className="container"><p style={{ color: '#ef4444', textAlign: 'center' }}>{error}</p></div>;
+    // Removed early return on error so the rest of the page (Image, Links) still loads.
+    // The error will be displayed inside the Preamble card instead.
 
     return (
         <div className="container page-transition">
@@ -72,9 +73,13 @@ const Home = () => {
                         </div>
                     </div>
                     <div style={styles.preambleText}>
-                        {preamble.split('\n').map((line, index) => (
-                            <p key={index} style={styles.line}>{line}</p>
-                        ))}
+                        {error ? (
+                            <p style={{ color: '#ef4444', textAlign: 'center' }}>{error}</p>
+                        ) : (
+                            preamble.split('\n').map((line, index) => (
+                                <p key={index} style={styles.line}>{line}</p>
+                            ))
+                        )}
                     </div>
                 </div>
 
